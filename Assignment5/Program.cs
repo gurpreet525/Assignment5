@@ -32,8 +32,8 @@ namespace Assignment5
             int x = 0;
             while (Letters[x] != letter)
             {
-                if (Letters[x++] == letter) return x;
-                    return -1;
+                if (Letters[x++] == letter) 
+                return -1;
             }
             return x + 1;
         }
